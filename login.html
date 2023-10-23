@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h2>Carnox</h2>
+    </div>
+
+    <div class="login-box">
+        <h4>Log in to Carnox</h4>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <i class="fa fa-user" id="fa"></i><input type="email" placeholder="Email" required>
+    
+                <a class="next" onclick="plusSlides(1)">Continue with Email</a>
+    
+                <hr>
+                <p class="par1">or</p>
+    
+                <a href="index.html" class="next1">Continue with Google</a>
+                <a href="index.html" class="next2">Continue with Apple</a>
+    
+                <hr class="hr">
+                <p class="par2">Don't have a Carnox Account</p>
+    
+                <a href="signup.html" class="log"><span></span>Sign Up</a>
+            </div>
+    
+            <div class="mySlides fade">
+                <div class="user-box">
+                    <i class="fa fa-lock" id="fa"></i><input type="password" placeholder="Password" required>
+                    <a href="#" class="for">Forgot password?</a>
+                    <a href="index.html" class="pass">Log in</a>
+                    <a href="#" class="not">Not you?</a>
+                </div>
+            </div>
+
+        </div>
+ 
+    </div>
+
+
+    <!-- Javascript -->
+    
+    <script src="java/all.js"></script>
+
+    <script>
+        var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+    </script>
+</body>
+</html>

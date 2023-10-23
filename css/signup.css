@@ -1,0 +1,199 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: 'Rajdhani', sans-serif;
+}
+.navbar{
+    width: auto;
+    height: 70px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 225);
+}
+
+.login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+.login-box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #000;
+    text-align: center;
+}
+.login-box .slideshow-container .mySlides .tab1, .tab3{
+    position: relative;
+}
+
+.login-box .slideshow-container .mySlides .tab1 input, .tab3 input, .tab4 input{
+    width: 61%;
+    padding: 10px;
+    padding-left: 50px;
+    font-size: 16px;
+    color: #000;
+    margin: 30px;
+    margin-bottom: 0;
+    margin-left: 50px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .slideshow-container .mySlides .tab1 input::placeholder, .tab3 input::placeholder, .tab4 input::placeholder{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.login-box #fa1{
+    position: fixed;
+    left: 19%;
+    top: 150px;
+}
+
+.login-box #fa2{
+    position: fixed;
+    left: 19%;
+    top: 220px;
+}
+
+.login-box .slideshow-container .mySlides .tab2 .input1{
+    width: 61%;
+    padding: 10px;
+    font-size: 16px;
+    color: #000;
+    margin: 30px;
+    margin-top: 0;
+    margin-bottom: -10px;
+    margin-left: 50px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .slideshow-container .mySlides .tab2 #input1{
+    width: 10%;
+}
+
+
+.login-box a{
+    position: absolute;
+    top: 7%;
+    left: 210px;
+    display: inline-block;
+    padding: 12px;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    color: rgb(1, 129, 1);
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid rgb(1, 129, 1);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.login-box a:hover{
+    color: #fff;
+    background: rgb(1, 129, 1);
+}
+
+.login-box .next1{
+    position: absolute;
+    top: 58%;
+    cursor: pointer;
+}    
+
+.login-box .next{
+    position: absolute;
+    top: 63%;
+    left: 370px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(1, 129, 1);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: -40px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.login-box .next:hover{
+    color: #fff;
+    background: rgb(1, 129, 1);
+}
+
+.login-box .prev{
+    position: absolute;
+    top: 63%;
+    left: 120px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(1, 129, 1);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: -40px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.login-box .prev:hover{
+    color: #fff;
+    background: rgb(1, 129, 1);
+}
+
+.login-box .log{
+    position: absolute;
+    top: 80%;
+    left: 165px;
+    display: block;
+    padding-right: 6rem;
+    padding-left: 6rem;
+}
+
+.login-box hr{
+    position: absolute;
+    top: 66%;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 70%;
+}
+.par{
+    position: absolute;
+    top: 33%;
+    left: 26%;
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+    padding: 5px;
+    background: #fff;
+    margin-right: 17rem;
+}
+
